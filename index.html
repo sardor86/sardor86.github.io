@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Sardor's personal homepage — an IT student at Inha University in Tashkent.">
+  <title>Sardor | IT Student</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#about" aria-label="Sardor, home">S<span>.</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+        <span class="menu-icon" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span class="menu-label">Menu</span>
+      </button>
+      <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+        <a href="#about">About me</a>
+        <a href="#courses">My courses</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Switch to dark mode" title="Switch color theme">
+        <span class="theme-icon" aria-hidden="true">☾</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero section-wrap" id="about" aria-labelledby="about-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> First-year IT student</p>
+        <h1 id="about-title">Hi, I'm <span>Sardor.</span></h1>
+        <p class="intro">I'm a first-year IT student at Inha University in Tashkent. I enjoy GYM and low level programming, and I'm learning something new every day.</p>
+        <a class="text-link" href="#courses">Explore what I'm learning <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
+        <div class="art-card"><span class="art-mark">&lt;/&gt;</span><span class="art-caption">learning<br>by building</span></div>
+        <span class="art-spark spark-one">✳</span><span class="art-spark spark-two">✦</span>
+      </div>
+    </section>
+
+    <section class="section-wrap content-section" id="courses" aria-labelledby="courses-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">What I'm studying</p><h2 id="courses-title">My courses</h2></div>
+        <p class="section-note">A few of the subjects I'm exploring this year.</p>
+      </div>
+      <div class="course-grid">
+        <article class="card course-card"><span class="card-number">01</span><h3>Introduction to IT</h3><p>Computer networks, Linux, and the foundations of information technology.</p></article>
+        <article class="card course-card"><span class="card-number">02</span><h3>Object Oriented Programming 1</h3><p>C++ functions, recursion, references, and core programming concepts.</p></article>
+        <article class="card course-card"><span class="card-number">03</span><h3>Calculus 1</h3><p>Limits, derivatives, and the mathematical ideas behind change.</p></article>
+        <article class="card course-card"><span class="card-number">04</span><h3>Physics1</h3><p>Core principles of physics, with a focus on motion and energy.</p></article>
+        <article class="card course-card"><span class="card-number">05</span><h3>Academic english</h3><p>Building clear academic writing, vocabulary, and communication skills.</p></article>
+        <article class="card course-card"><span class="card-number">06</span><h3>Academic english reading</h3><p>Reading academic texts and developing comprehension strategies.</p></article>
+      </div>
+    </section>
+
+    <section class="projects-band" id="projects" aria-labelledby="projects-title">
+      <div class="section-wrap content-section">
+        <div class="section-heading">
+          <div><p class="eyebrow">Things I'm making</p><h2 id="projects-title">Projects</h2></div>
+          <p class="section-note">A space for things I'll build along the way.</p>
+        </div>
+        <div class="project-grid">
+          <article class="card project-card"><span class="project-symbol" aria-hidden="true">↗</span><h3>Project 1</h3><p>A small project idea taking shape as I learn.</p><span class="tag">Coming soon</span></article>
+          <article class="card project-card"><span class="project-symbol" aria-hidden="true">⌘</span><h3>Project 2</h3><p>A work in progress from my studies and experiments.</p><span class="tag">Coming soon</span></article>
+          <article class="card project-card"><span class="project-symbol" aria-hidden="true">◌</span><h3>Project 3</h3><p>More details will appear here when it's ready.</p><span class="tag">Coming soon</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-wrap contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="contact-copy"><p class="eyebrow">Say hello</p><h2 id="contact-title">Contact</h2><p>Have a question or want to connect? Feel free to reach out.</p></div>
+      <div class="contact-links">
+        <a class="contact-item" href="mailto:s.shavkatov2@student.inha.uz"><span class="contact-icon" aria-hidden="true">@</span><span><small>Email</small><strong>s.shavkatov2@student.inha.uz</strong></span><span class="arrow" aria-hidden="true">↗</span></a>
+        <a class="contact-item" href="https://github.com/sardor86" target="_blank" rel="noreferrer"><span class="contact-icon" aria-hidden="true">⌘</span><span><small>GitHub</small><strong>github.com/sardor86</strong></span><span class="arrow" aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="section-wrap"><span>© <span id="year">2026</span> Sardor</span><span>Made with curiosity in Tashkent.</span></div></footer>
+</body>
+</html>
